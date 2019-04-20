@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="UI.MasinaAddController"
+            prefHeight="400.0" prefWidth="600.0">
+    <VBox>
+
+        <TextField fx:id="txtId" promptText="Id"/>
+        <TextField fx:id="txtModel" promptText="Model"/>
+        <TextField fx:id="txtKm_achizitie" promptText="Km_achizitie"/>
+        <TextField fx:id="txtPret" promptText="Pret"/>
+        <TextField fx:id="txtIdi" promptText="Idi"/>
+        <TextField fx:id="txtId_masina" promptText="Id_masina"/>
+        <TextField fx:id="txtNr_zile" promptText="Nr_zile"/>
+        <TextField fx:id="txtKm_parcursi" promptText="Km_parcursi"/>
+
+        <HBox>
+            <CheckBox fx:id="chkMasina" text="Masina"/>
+            <CheckBox fx:id="chkInchiriere" text="Inchiriere"/>
+        </HBox>
+
+        <Button text="Add" fx:id="btnAdd" onAction="#btnAddClick" />
+        <Button text="Cancel" fx:id="btnCancel" onAction="#btnCancelClick" />
+
+    </VBox>
+
+
+</AnchorPane>
